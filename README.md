@@ -1,27 +1,41 @@
-# 💱 Currency Converter Web App
+# 💱 Currency Converter API & Web App
 
-A simple Flask web application that converts currencies using live exchange rates.
-
----
-
-## 🚀 Features
-- Converts any currency to another (e.g., USD → INR)
-- Uses real-time API data from ExchangeRate API
-- Clean, responsive UI
-- Built with Python, Flask, and HTML/CSS
+Welcome to the **Currency Converter App** — a simple Flask-based web app that lets you convert any world currency in real time.  
+It uses the latest exchange-rate API to fetch live currency values and provides a clean, responsive UI.
 
 ---
 
-## 🧰 Tech Stack
-- Python 3.x
-- Flask
-- Requests
-- HTML, CSS (Frontend)
+## 🌍 Features
+
+✅ Convert between **all major currencies** (USD, INR, EUR, GBP, JPY, etc.)  
+✅ Built using **Flask (Python)** for backend and **HTML/CSS** for frontend  
+✅ Real-time data using **Exchange Rate API**  
+✅ Simple and mobile-friendly interface  
 
 ---
 
-## 🧠 How It Works
+## 🖼️ Project Preview
 
-1. Run the Flask server:
-   ```bash
-   python app.py
+![Currency Converter Screenshot](static/project.png)
+
+*(Replace `static/project.png` with your actual image path)*  
+
+---
+
+## 🛠️ Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+
+# 2. Create virtual environment
+python -m venv venv
+venv\Scripts\activate    # for Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the app
+python app.py
+
